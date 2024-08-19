@@ -19,3 +19,20 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+# FoodHub
+
+- Header
+- - Logo
+- - Nav Items
+- Body
+- - Search
+- - RestaurantContainer
+- - - RestaurantCard
+- - - img
+- - - Name of the restaurant, star rating, cuisines, delivery time
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact

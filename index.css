@@ -24,8 +24,10 @@
 }
 
 .res-container {
-  display: flex;
   text-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 items per row */
+  gap: 20px;
 }
 
 .res-card {
@@ -65,4 +67,8 @@
   padding: 0 20px;
   cursor: pointer;
   margin: 10px;
+}
+
+.filter {
+  display: flex;
 }

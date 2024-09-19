@@ -15,7 +15,7 @@ const RestaurantCard = (props) => {
       <h4>{cuisines.join(", ")}</h4>
       <h4>{avgRating}</h4>
       <h4>{costForTwo}</h4>
-      <h4>Delivery time {sla?.slaString}</h4>
+      <h4>Delivered in {sla?.slaString}</h4>
     </div>
   );
 };
